@@ -32,7 +32,7 @@
            HorizontalOptions="Center" />
 
     <Label x:Name="playerScore"
-            Text="" 
+            Text="Score:0" 
            TextColor="White"
            FontSize="Large"
            VerticalOptions="Center" 
