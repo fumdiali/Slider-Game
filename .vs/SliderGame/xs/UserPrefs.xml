@@ -1,0 +1,17 @@
+﻿<Properties StartupConfiguration="{06249ADB-8D66-4CFB-9E8F-B8CC95074704}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SliderGame/SliderGamePage.xaml.cs">
+    <Files>
+      <File FileName="SliderGame/SliderGamePage.xaml" Line="27" Column="13" />
+      <File FileName="SliderGame/SliderGamePage.xaml.cs" Line="17" Column="16" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.SliderGame.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.5202342A-55FE-4536-83AA-0198E256D66F">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.SliderGame.iOS>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

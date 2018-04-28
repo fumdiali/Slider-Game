@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:local="clr-namespace:SliderGame"
+             Padding="0, 20, 0, 0"
+             x:Class="SliderGame.SliderGamePage">
+
+    <StackLayout BackgroundColor="Purple">
+    
+    <Label Text="Slide 'N' Hit!"
+           FontSize="Large"
+           TextColor="White"
+           Margin="36"
+           VerticalOptions="Center" 
+           HorizontalOptions="Center" />
+        
+    <Label x:Name="sliderMark"
+            Text="Set Slider to 30 or more"
+           TextColor="White"
+           VerticalOptions="Center" 
+           HorizontalOptions="Center" />
+
+    <Slider x:Name="slider"
+            Minimum="0" Maximum="100"
+            VerticalOptions="Center"
+            ValueChanged="OnSliderValueChange" />
+
+    <Label x:Name="levelLabel"
+            Text="Level 1" 
+           TextColor="White"
+           VerticalOptions="Center" 
+           HorizontalOptions="Center" />
+
+    <Label x:Name="playerScore"
+            Text="" 
+           TextColor="White"
+           FontSize="Large"
+           VerticalOptions="Center" 
+           HorizontalOptions="Center" />    
+
+    <Button x:Name="resetButton"
+            BackgroundColor="Teal"
+            Margin="80"
+            Text="Reset" 
+            TextColor="White"
+            Clicked="ResetButton"/>    
+
+   </StackLayout>     
+</ContentPage>
